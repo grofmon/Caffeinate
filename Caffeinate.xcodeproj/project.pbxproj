@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F16C02C9195A1993008C1EFC /* Caffeinate.icns in Resources */ = {isa = PBXBuildFile; fileRef = F16C02C8195A1993008C1EFC /* Caffeinate.icns */; };
 		F186D89D1959D5010020276A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F186D89C1959D5010020276A /* Cocoa.framework */; };
 		F186D89F1959D5010020276A /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F186D89E1959D5010020276A /* AppleScriptObjC.framework */; };
 		F186D8A91959D5010020276A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F186D8A71959D5010020276A /* InfoPlist.strings */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F16C02C8195A1993008C1EFC /* Caffeinate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Caffeinate.icns; sourceTree = "<group>"; };
 		F186D8991959D5010020276A /* Caffeinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caffeinate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F186D89C1959D5010020276A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F186D89E1959D5010020276A /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -98,6 +100,7 @@
 		F186D8A51959D5010020276A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F16C02C8195A1993008C1EFC /* Caffeinate.icns */,
 				F186D8A61959D5010020276A /* Caffeinate-Info.plist */,
 				F186D8A71959D5010020276A /* InfoPlist.strings */,
 				F186D8AA1959D5010020276A /* main.m */,
@@ -162,6 +165,7 @@
 				F186D8A91959D5010020276A /* InfoPlist.strings in Resources */,
 				F186D8B61959D5010020276A /* Images.xcassets in Resources */,
 				F186D8AF1959D5010020276A /* Credits.rtf in Resources */,
+				F16C02C9195A1993008C1EFC /* Caffeinate.icns in Resources */,
 				F186D8B41959D5010020276A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +285,6 @@
 		F186D8BA1959D5010020276A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caffeinate/Caffeinate-Prefix.pch";
@@ -294,7 +297,6 @@
 		F186D8BB1959D5010020276A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caffeinate/Caffeinate-Prefix.pch";
@@ -323,6 +325,7 @@
 				F186D8BB1959D5010020276A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
